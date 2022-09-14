@@ -1,27 +1,27 @@
 <template>
-  <div class="flex h-96 items-start">
+  <div class="flex h-96 items-start z-50">
     <div class="flex flex-row justify-between items-center w-full px-10 pt-10">
       <div class="flex flex-row justify-between">
         <div class="pr-14 text-slate-300">
           LOGO
         </div>
-        <div class="pr-5 text-slate-200 flex flex-col items-center cursor-pointer">
+        <div class="pr-6 text-slate-200 flex flex-col items-center cursor-pointer">
           <div class="mb-1">
             Home
           </div>
-          <div class="border w-2"></div>
+          <div class="border-b-2 w-3"></div>
         </div>
-        <div class="pr-5 text-slate-200 flex flex-col items-center cursor-pointer">
+        <div class="pr-6 text-slate-200 flex flex-col items-center cursor-pointer">
           <div class="mb-1">
             Features
           </div>
-          <div class="border w-2"></div>
+          <div class="border-b-2 w-3"></div>
         </div>
-        <div class="pr-5 text-slate-200 flex flex-col items-center cursor-pointer">
+        <div class="pr-6 text-slate-200 flex flex-col items-center cursor-pointer">
           <div class="mb-1">
             Contact us
           </div>
-          <div class="border w-2"></div>
+          <div class="border-b-2 w-3"></div>
         </div>
       </div>
       <div class="flex flex-row justify-between items-center">
@@ -31,11 +31,10 @@
             <span>Login</span>
           </button>
         </div>
-        <div class="text-white bg-orange-400 px-10 py-3 rounded-lg">
+        <div class="text-white bg-orange-400 px-10 py-3 rounded-lg cursor-pointer">
           Sign up
         </div>
       </div>
     </div>
   </div>
-
 </template>
