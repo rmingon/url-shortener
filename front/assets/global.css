@@ -4,10 +4,23 @@
 }
 
 @font-face {
-  font-family: "MontserratBold";
-  src: url(~/assets/fonts/Montserrat-Bold.ttf) format("truetype");
+  font-family: "MontserratExtraBold";
+  src: url(~/assets/fonts/Montserrat-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratSemiBold";
+  src: url(~/assets/fonts/Montserrat-SemiBold.ttf) format("truetype");
 }
 
 html {
   font-family: "Montserrat", sans-serif;
+}
+
+.MontserratBold {
+  font-family: "MontserratBold", sans-serif;
+}
+
+.MontserratSemiBold {
+  font-family: "MontserratSemiBold", sans-serif;
 }
