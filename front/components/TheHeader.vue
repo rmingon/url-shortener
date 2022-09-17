@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-full items-center justify-center px-12 my-16">
+  <div class="flex flex-col w-full items-center justify-center px-12 my-16 h-56">
     <div class="text-sky-200">
       URL shortener
     </div>
