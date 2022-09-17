@@ -10,8 +10,8 @@
 </script>
 
 <template>
-  <div class="flex justify-center w-full">
-    <div class="flex flex-col w-full bg-white border mx-10 px-4 py-4 rounded">
+  <div class="flex justify-center w-full z-20">
+    <div class="flex flex-col w-full bg-white border mx-12 px-6 py-6 rounded shadow-2xl">
       <div class="flex justify-between w-full mb-3 items-center">
         <div class="flex items-center">
           <div class=" text-yellow-400">
@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="flex items-center">
-          <div class="mr-1 MontserratBold">
+          <div class="mr-1">
             see feature
           </div>
           <div class="border-2 rounded-full">
