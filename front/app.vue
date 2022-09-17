@@ -3,5 +3,9 @@
     <Menu />
     <TheHeader />
     <Url />
+    <Features />
+    <Scroll/>
+    <MoreFeatures />
+    <WhyUs />
   </div>
 </template>
