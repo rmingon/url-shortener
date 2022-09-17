@@ -18,14 +18,14 @@
             <svg width="16" height="16" viewBox="0 0 21 21"><path fill="text-yellow-400" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m10.5 14.5l-5 3l2-5.131l-4-3.869h5l2-5l2 5h5l-4 4l2 5z"/></svg>
           </div>
           <div class="mr-1">
-            Register for more feature
+            Register for more features
           </div>
         </div>
         <div class="flex items-center">
           <div class="mr-1">
             see feature
           </div>
-          <div class="border-2 rounded-full">
+          <div class="border-2 rounded-full cursor-pointer">
             <svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6l-6-6l1.41-1.41z"/></svg>
           </div>
         </div>

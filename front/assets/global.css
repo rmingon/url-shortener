@@ -13,12 +13,26 @@
   src: url(~/assets/fonts/Montserrat-SemiBold.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "MontserratClassic";
+  src: url(~/assets/fonts/Montserrat-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratBold";
+  src: url(~/assets/fonts/Montserrat-Bold.ttf) format("truetype");
+}
+
 html {
   font-family: "Montserrat", sans-serif;
 }
 
 .MontserratBold {
   font-family: "MontserratBold", sans-serif;
+}
+
+.MontserratClassic {
+  font-family: "MontserratClassic", sans-serif;
 }
 
 .montserrat-extra-bold {
