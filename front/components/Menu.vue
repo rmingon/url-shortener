@@ -1,3 +1,7 @@
+<script setup>
+  
+</script>
+
 <template>
   <div class="flex items-start w-full">
     <div class="flex flex-row justify-between items-center w-full px-10 pt-10">
