@@ -8,6 +8,8 @@
     <MoreFeatures />
     <FeaturesCards />
     <WhyUs />
-    <Price /> 
+    <Price />
+    <Extends />
+    <Footer /> 
   </div>
 </template>
