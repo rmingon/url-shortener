@@ -23,6 +23,12 @@
         </div>
         <div class="pr-6 text-slate-200 flex flex-col items-center cursor-pointer">
           <div class="mb-1">
+            Price
+          </div>
+          <div class="border-b-2 w-3"></div>
+        </div>
+        <div class="pr-6 text-slate-200 flex flex-col items-center cursor-pointer">
+          <div class="mb-1">
             Contact us
           </div>
           <div class="border-b-2 w-3"></div>
