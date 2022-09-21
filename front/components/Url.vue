@@ -20,8 +20,10 @@
   const qrcode = useQRCode(url_shorten.value)
 
   const short = () => {
-    as_shorten.value = true
-    url_shorten.value = `${domain()}/${hash()}`
+    if (is_url) {
+      as_shorten.value = true
+      url_shorten.value = `${domain()}/${hash()}`
+    }
   }
 
   const copyInClipboard = () => {
