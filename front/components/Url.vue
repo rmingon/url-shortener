@@ -4,6 +4,7 @@
   let as_shorten = ref(false)
   let url_shorten = ref('')
   let open_qrcode = ref(false)
+  let qrcode = ref('')
 
   const regex_url = new RegExp(/[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)?/g)
 
@@ -17,13 +18,18 @@
     return window.location.host
   }
 
-  const qrcode = useQRCode(url_shorten.value)
+  qrcode = useQRCode(url_shorten)
 
   const short = () => {
-    if (is_url) {
+    if (is_url.value) {
       as_shorten.value = true
       url_shorten.value = `${domain()}/${hash()}`
     }
+  }
+
+  const reset = () => {
+    as_shorten.value = false
+    url_shorten.value = ''
   }
 
   const copyInClipboard = () => {
@@ -74,9 +80,12 @@
         <button v-if="as_shorten" @click="open_qrcode = !open_qrcode" class="bg-red-400 duration-200 hover:bg-red-500 hover:shadow-sm active:filter-none active:bg-green-600 p-4 rounded inline-flex items-center hover:bg-grey ml-4">
           <svg class="text-white" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M4 4h6v6H4V4m16 0v6h-6V4h6m-6 11h2v-2h-2v-2h2v2h2v-2h2v2h-2v2h2v3h-2v2h-2v-2h-3v2h-2v-4h3v-1m2 0v3h2v-3h-2M4 20v-6h6v6H4M6 6v2h2V6H6m10 0v2h2V6h-2M6 16v2h2v-2H6m-2-5h2v2H4v-2m5 0h4v4h-2v-2H9v-2m2-5h2v4h-2V6M2 2v4H0V2a2 2 0 0 1 2-2h4v2H2m20-2a2 2 0 0 1 2 2v4h-2V2h-4V0h4M2 18v4h4v2H2a2 2 0 0 1-2-2v-4h2m20 4v-4h2v4a2 2 0 0 1-2 2h-4v-2h4Z"/></svg>
         </button>
+        <button v-if="as_shorten" @click="reset()" class="bg-red-400 duration-200 hover:bg-red-500 hover:shadow-sm active:filter-none active:bg-green-600 p-4 rounded inline-flex items-center hover:bg-grey ml-4">
+          <svg class="text-white" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M17.65 6.35A7.958 7.958 0 0 0 12 4a8 8 0 0 0-8 8a8 8 0 0 0 8 8c3.73 0 6.84-2.55 7.73-6h-2.08A5.99 5.99 0 0 1 12 18a6 6 0 0 1-6-6a6 6 0 0 1 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35Z"/></svg>
+        </button>
       </div>
-      <div v-if="open_qrcode">
-        <img :src="qrcode" alt="QR Code" />
+      <div v-if="open_qrcode" class="flex justify-center">
+        <img class="shadow mt-2" :src="qrcode" alt="QR Code" />
       </div>
     </div>
   </div>
