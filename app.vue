@@ -1,5 +1,6 @@
 <template>
   <div class="flex flex-col w-full min-h-screen bg-gradient-to-r from-sky-500 to-indigo-500">
+    <BasicsToast />
     <Menu />
     <Header />
     <Url />
@@ -10,6 +11,6 @@
     <WhyUs />
     <Price />
     <Extends />
-    <Footer /> 
+    <Footer />
   </div>
 </template>
