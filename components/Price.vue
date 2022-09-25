@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="px-32 py-6">
+  <div class="md:px-32 py-6">
     <div class="text-5xl text-sky-200 text-center MontserratBold">
       Price
     </div>

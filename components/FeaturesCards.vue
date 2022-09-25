@@ -1,5 +1,5 @@
 <template>
-  <div class="h-24 px-14 pt-4 w-full flex">
+  <div class="h-24 md:px-14 pt-4 w-full flex">
     <div class="flex flex-col w-full">
       <div class="text-center text-cyan-100 montserrat-extra-bold text-2xl">
         Try this url shorten website and go to the success.
@@ -9,7 +9,7 @@
       </div>
     </div>
   </div>
-  <div class="h-24 px-14 bg-white w-full flex">
+  <div class="h-24 px-14 bg-white w-full flex border-b border-transparent">
     <div class="flex flex-row w-full justify-between items-center m-6">
       <div class="flex flex-row items-center basis-1/3 mx-4 my-5 rounded-lg mr-4">
         <div class="flex items-center p-4 rounded bg-slate-50 justify-center mr-3 shadow hover:bg-slate-100 hover:shadow-md duration-200 cursor-pointer">

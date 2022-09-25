@@ -1,5 +1,5 @@
 <template>
-  <div class="h-64 px-14 bg-white w-full flex flex-col">
+  <div class="h-64 md:px-14 bg-white w-full flex flex-col">
     <div class="flex flex-row w-full justify-between items-center mt-2">  
       <div class="flex flex-row items-center basis-1/3 mx-4 my-2 rounded-lg shadow p-4 hover:shadow-lg hover:border-t-4 hover:border-sky-600 duration-200">
         <div class="flex items-center cursor-pointer mr-2">
