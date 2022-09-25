@@ -1,8 +1,10 @@
 <template>
   <div class="bg-white px-12 pb-8 w-full">
     <div class="flex flex-col w-full">
-      <div class="text-center MontserratBold text-3xl my-6">
-        WHY US ? 
+      <div class="text-center MontserratBold text-3xl my-6 flex items-center justify-center">
+        <div class="border-b w-52 border-sky-700 pb-2">
+          WHY US ? 
+        </div>
       </div>
       <div class="flex flex-row h-60">
         <div class="basis-1/3 p-4 hover:shadow-xl duration-200 cursor-pointer">

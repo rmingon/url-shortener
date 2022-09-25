@@ -6,7 +6,7 @@
 </script>
 
 <template>
-  <div  class="bg-white flex w-full flex-col text-center pt-12 pb-10 justify-center items-center">
+  <div class="bg-white flex w-full flex-col text-center pt-12 pb-10 justify-center items-center">
     <div ref="target" class="montserrat-extra-bold text-3xl text-center">
       Some features
     </div>
