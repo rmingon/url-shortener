@@ -8,5 +8,6 @@ export default defineNuxtConfig({
   ],
   css: [
     '~/assets/global.css'
-  ]
+  ],
+  ssr: false
 })
