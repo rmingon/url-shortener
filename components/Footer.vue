@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-white px-14">
+  <div class="px-14 mb-10">
     <div class="flex flex-row">
-      <div class="basis-1/2">
-        <div class="flex flex-row items-center justify-center cursor-pointer">
+      <div class="basis-1/2 flex justify-center items-center">
+        <div class="flex flex-col items-center justify-center cursor-pointer bg-slate-50 py-4 px-6 w-48 rounded hover:shadow-xl mt-5 rotate-6 h-16">
           <div>
             Follow me !
           </div>
@@ -12,7 +12,29 @@
         </div>
       </div>
       <div class="basis-1/2">
-        
+        <div class="text-center text-2xl text-white my-2">
+          Contact us !
+        </div>
+        <form action="">
+          <input type="text" name="" id="" placeholder="Name" class="w-full border-b border-r border-t border-slate-300 p-4 rounded-md my-2">
+          <input type="text" name="" id="" placeholder="Email" class="w-full border-b border-r border-t border-slate-300 p-4 rounded-md my-2">
+          <textarea name="" id="" cols="30" rows="10" class="w-full border-b border-r border-t border-slate-300 p-4 rounded-md my-2"></textarea>
+          <button type="submit" class="flex flex-row items-center rounded-lg shadow p-4 hover:shadow-lg duration-200 bg-white">
+            <div class="flex items-center cursor-pointer mr-2">
+              <svg width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="m4 6.03l7.5 3.22l-7.5-1V6.03m7.5 8.72L4 17.97v-2.22l7.5-1M2 3v7l15 2l-15 2v7l21-9L2 3Z"/></svg>
+            </div>
+            <div class="flex flex-col w-full">
+              <div class="MontserratBold">
+                Send
+              </div>
+            </div>
+            <div class="flex flex-col ml-2">
+              <div class="border-2 rounded-full cursor-pointer -rotate-90">
+                <svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6l-6-6l1.41-1.41z"/></svg>
+              </div>
+            </div>
+          </button>
+        </form>
       </div>
     </div>
   </div>
